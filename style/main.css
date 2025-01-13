@@ -1,112 +1,63 @@
-/*Google Font*/
-.fira-sans-thin {
+html {
   font-family: "Fira Sans", serif;
-  font-weight: 100;
-  font-style: normal;
 }
 
-.fira-sans-extralight {
-  font-family: "Fira Sans", serif;
-  font-weight: 200;
-  font-style: normal;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
-.fira-sans-light {
-  font-family: "Fira Sans", serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.fira-sans-regular {
-  font-family: "Fira Sans", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.fira-sans-medium {
-  font-family: "Fira Sans", serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.fira-sans-semibold {
-  font-family: "Fira Sans", serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.fira-sans-bold {
-  font-family: "Fira Sans", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.fira-sans-extrabold {
-  font-family: "Fira Sans", serif;
-  font-weight: 800;
-  font-style: normal;
-}
-
-.fira-sans-black {
-  font-family: "Fira Sans", serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.fira-sans-thin-italic {
-  font-family: "Fira Sans", serif;
-  font-weight: 100;
-  font-style: italic;
-}
-
-.fira-sans-extralight-italic {
-  font-family: "Fira Sans", serif;
-  font-weight: 200;
-  font-style: italic;
-}
-
-.fira-sans-light-italic {
-  font-family: "Fira Sans", serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.fira-sans-regular-italic {
-  font-family: "Fira Sans", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.fira-sans-medium-italic {
-  font-family: "Fira Sans", serif;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.fira-sans-semibold-italic {
-  font-family: "Fira Sans", serif;
-  font-weight: 600;
-  font-style: italic;
-}
-
-.fira-sans-bold-italic {
-  font-family: "Fira Sans", serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.fira-sans-extrabold-italic {
-  font-family: "Fira Sans", serif;
-  font-weight: 800;
-  font-style: italic;
-}
-
-.fira-sans-black-italic {
-  font-family: "Fira Sans", serif;
-  font-weight: 900;
-  font-style: italic;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 nav h3 {
   font-size: 32px;
+}
+
+nav button {
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 18px;
+  padding: 15px 30px;
+  border: 1px solid #006a50;
+}
+
+nav button a {
+  text-decoration: none;
+  color: #006a50;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #c6e4d6;
+  border-radius: 24px;
+  padding: 80px 100px;
+}
+
+.banner-content {
+  padding: 0;
+  margin: 0;
+}
+.banner-content h3 {
+  font-size: 20px;
+  color: #0e0e0e;
+}
+
+.banner-content button {
+  background-color: #006a50;
+  padding: 17px 34px;
+  border-radius: 8px;
+  border: none;
+}
+
+.banner-content button a {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
 }

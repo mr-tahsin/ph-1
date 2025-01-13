@@ -76,7 +76,6 @@ nav button a {
 }
 
 .pillars-card {
-  max-width: 100%;
   display: flex;
   justify-content: space-between;
   gap: 20px;
@@ -90,4 +89,36 @@ nav button a {
   background-color: #f9f9f9;
   text-align: left;
   border-radius: 8px;
+}
+
+/*Vision*/
+
+.vision {
+  margin-top: 80px;
+}
+.vision h3 {
+  font-size: 40px;
+}
+.vision p {
+  font-size: 16px;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+.vision-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 33.33px;
+}
+.vision-card-1,
+.vision-card-2,
+.vision-card-3 {
+  padding: 20px;
+  text-align: left;
+  border-radius: 8px;
+}
+.vision-card p {
+  font-size: 16px;
+}
+.vision-card h4 {
+  font-size: 20px;
 }

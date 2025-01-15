@@ -143,3 +143,25 @@ nav button a {
   background-color: #ffc239;
   border: none;
 }
+
+/*Opinion Matters*/
+.opinion h3 {
+  margin-top: 80px;
+}
+.opinion-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 16px;
+}
+.right-text button {
+  display: block;
+  margin: 20px 0;
+}
+.bg-color-green {
+  background-color: #c6e4d6;
+}
+.left-text,
+.right-text {
+  padding: 10px;
+}

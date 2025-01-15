@@ -1,0 +1,145 @@
+html {
+  font-family: "Fira Sans", serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body {
+  background-color: #f1f1f3;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav h3 {
+  font-size: 32px;
+}
+
+nav button {
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 18px;
+  padding: 15px 30px;
+  border: 1px solid #006a50;
+}
+
+nav button a {
+  text-decoration: none;
+  color: #006a50;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #c6e4d6;
+  border-radius: 24px;
+  padding: 80px 100px;
+}
+
+.banner-content {
+  padding: 0;
+  margin: 0;
+}
+.banner-content h3 {
+  font-size: 20px;
+  color: #698f62;
+}
+
+.banner-content button {
+  background-color: #006a50;
+  padding: 17px 34px;
+  border-radius: 8px;
+  border: none;
+}
+
+.banner-content button a {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Pillars section*/
+.pillars {
+  margin-top: 80px;
+}
+
+.pillars h3 {
+  font-size: 40px;
+}
+
+.pillars-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.pillars-card-1,
+.pillars-card-2,
+.pillars-card-3,
+.pillars-card-4 {
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: left;
+  border-radius: 8px;
+}
+
+/*Vision*/
+
+.vision {
+  margin-top: 80px;
+}
+.vision h3 {
+  font-size: 40px;
+}
+.vision p {
+  font-size: 16px;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+.vision-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 33.33px;
+}
+.vision-card-1,
+.vision-card-2,
+.vision-card-3 {
+  padding: 20px;
+  text-align: left;
+  border-radius: 8px;
+}
+.vision-card p {
+  font-size: 16px;
+}
+.vision-card h4 {
+  font-size: 20px;
+}
+.vision-card-1 button,
+.vision-card-2 button,
+.vision-card-3 button {
+  padding: 11px 20px;
+  text-align: left;
+  border-radius: 8px;
+  font-size: 18px;
+  color: white;
+}
+.LM-blue {
+  background-color: #5490f5;
+  border: none;
+}
+.LM-green {
+  background-color: #09a15c;
+  border: none;
+}
+.LM-yellow {
+  background-color: #ffc239;
+  border: none;
+}

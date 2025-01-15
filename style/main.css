@@ -122,3 +122,24 @@ nav button a {
 .vision-card h4 {
   font-size: 20px;
 }
+.vision-card-1 button,
+.vision-card-2 button,
+.vision-card-3 button {
+  padding: 11px 20px;
+  text-align: left;
+  border-radius: 8px;
+  font-size: 18px;
+  color: white;
+}
+.LM-blue {
+  background-color: #5490f5;
+  border: none;
+}
+.LM-green {
+  background-color: #09a15c;
+  border: none;
+}
+.LM-yellow {
+  background-color: #ffc239;
+  border: none;
+}

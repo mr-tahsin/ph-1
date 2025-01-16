@@ -103,6 +103,7 @@ nav button a {
   font-size: 16px;
   margin-top: 24px;
   margin-bottom: 32px;
+  color: #0e0e0e86;
 }
 .vision-card {
   display: flex;
@@ -176,6 +177,16 @@ nav button a {
 }
 
 /*News section*/
+.news h3 {
+  font-size: 40px;
+}
+.news p {
+  font-size: 16px;
+  margin-top: 24px;
+  margin-bottom: 32px;
+  color: #0e0e0e86;
+}
+
 .news-container-1,
 .news-container-2 {
   display: flex;
@@ -197,12 +208,15 @@ nav button a {
 .news-content {
   width: 50%;
 }
-.news-content img {
+.news-content img,
+.news-content-2 img {
   display: block;
 }
-.news-content h3 {
+.news-content h3,
+.news-content-2 h3 {
   font-size: 32px;
   padding-top: 5px;
+  color: black;
 }
 time {
   padding-top: 12px;
@@ -210,18 +224,24 @@ time {
   font-size: 18px;
   color: #0e0e0e73;
 }
-.news-content p {
+.news-content p,
+.news-content-2 p {
   font-size: 16px;
   color: #0e0e0e73;
 }
-.news-content button {
+.news-content button,
+.news-content-2 button {
   padding: 13px 26px;
   background-color: #006a50;
   border-radius: 8px;
   border: none;
 }
-.news-content button a {
+.news-content button a,
+.news-content-2 button a {
   font-size: 18px;
   text-decoration: none;
   color: white;
+}
+.news-content-2 {
+  padding: 40px 32px 48px 48px;
 }

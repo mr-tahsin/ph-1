@@ -147,6 +147,7 @@ nav button a {
 /*Opinion Matters*/
 .opinion h3 {
   margin-top: 80px;
+  font-size: 40px;
 }
 .opinion-container {
   display: flex;
@@ -157,6 +158,14 @@ nav button a {
 .right-text button {
   display: block;
   margin: 20px 0;
+  padding: 12px 52.5px 12px 16px;
+  border-radius: 4px;
+  border: none;
+  background-color: #09a15d52;
+}
+.right-text button a {
+  text-decoration: none;
+  color: black;
 }
 .bg-color-green {
   background-color: #c6e4d6;
@@ -164,4 +173,55 @@ nav button a {
 .left-text,
 .right-text {
   padding: 10px;
+}
+
+/*News section*/
+.news-container-1,
+.news-container-2 {
+  display: flex;
+  /* gap: 50px; */
+  background-color: white;
+  border-radius: 24px;
+}
+
+.news-container-2 {
+  margin: 24px 0;
+}
+
+.satellite {
+  padding: 40px 32px 48px 48px;
+}
+.satellite img {
+  border-radius: 24px;
+}
+.news-content {
+  width: 50%;
+}
+.news-content img {
+  display: block;
+}
+.news-content h3 {
+  font-size: 32px;
+  padding-top: 5px;
+}
+time {
+  padding-top: 12px;
+  display: block;
+  font-size: 18px;
+  color: #0e0e0e73;
+}
+.news-content p {
+  font-size: 16px;
+  color: #0e0e0e73;
+}
+.news-content button {
+  padding: 13px 26px;
+  background-color: #006a50;
+  border-radius: 8px;
+  border: none;
+}
+.news-content button a {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
 }

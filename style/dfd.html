@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rounded Image with White Border</title>
+    <style>
+      .image-container {
+        display: inline-block;
+        border: 50px solid white; /* White border outside the image */
+        border-radius: 50%; /* Makes the border circular */
+        overflow: hidden; /* Ensures the image is clipped to the rounded border */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+      }
+
+      .image-container img {
+        display: block;
+        width: 150px; /* Adjust size as needed */
+        height: 150px; /* Ensures the image stays square for the circular effect */
+        border-radius: 50%; /* Makes the image circular */
+        object-fit: cover; /* Ensures the image scales properly within the container */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image-container">
+      <img src="../assets/satelite.png" alt="Rounded Image" />
+    </div>
+  </body>
+</html>

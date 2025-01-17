@@ -303,3 +303,46 @@ time {
   color: white;
   margin-top: 32px;
 }
+
+/*Subscribe Section*/
+.subscribe {
+  background-color: #c6e4d6;
+  border-radius: 24px;
+  padding: 80px 40px;
+  margin: 80px 0;
+  text-align: center;
+}
+.subscribe-container {
+  text-align: center;
+}
+.subscribe input {
+  padding: 5px 0px;
+  margin-top: 30px;
+  height: 30px;
+  width: 450px;
+}
+.subscribe h3 {
+  font-size: 40px;
+}
+
+.subscribe-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe-email input {
+  text-align: center;
+}
+.subscribe-email input::placeholder {
+  color: #2e2b2b99;
+  font-size: 20px;
+  font-weight: 300;
+}
+.submit-button {
+  margin-top: 0px;
+  border-radius: 0px 102px 0px 0px;
+}
+.subscribe-2 {
+  font-size: 16px;
+  color: #171616de;
+}
